@@ -96,12 +96,14 @@ public class Scraper {
 		//for(String url : URL)
 			//System.out.println(url);
 		
-		//for(String Class: Classes)
-			//System.out.println(Class);
+		for(String Class: Classes)
+			System.out.println(Class);
 		
 		System.out.println(coloredURL.size());
 		System.out.println(deadLinks.size());
 		System.out.println(Classes.size());
+		
+		
 		
 		//for(string url:URL)
 	}
