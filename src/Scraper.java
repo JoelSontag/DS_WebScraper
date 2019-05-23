@@ -33,8 +33,8 @@ public class Scraper {
 	private static String urlString="";
 
 	public static void main(String[] args) {
-		URL.add("http://touro.edu/");
-		int counter=10000000;
+		URL.add("https://shs.touro.edu/programs/speech-language-pathology/academics/courses/");
+		int counter=10;
 		
 			
 		while (!URL.isEmpty()&&counter>1) {
@@ -68,7 +68,7 @@ public class Scraper {
 					lookForClasses();
 				//getInternalLinks();
 					
-				getEmails();
+				//getEmails();
 				getURL();
 				//getClasses();
 				coloredURL.add(urlString);
@@ -161,7 +161,7 @@ public class Scraper {
 	}
 	public static void getJavaScript(String webAddress) {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sam\\Desktop\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sam\\Desktop\\chromedriver_win32\\chromedriver74.exe");
 		// Open a new browser window
 		WebDriver driver = new ChromeDriver();
 		ArrayList<WebElement> languagesNamesList = new ArrayList<WebElement>();

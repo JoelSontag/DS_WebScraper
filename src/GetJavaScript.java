@@ -11,7 +11,7 @@ public class GetJavaScript {
 private static ArrayList<String> classes= new ArrayList<String>();
 	public static void main(String[] args) {
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sam\\Desktop\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sam\\Desktop\\chromedriver_win32\\chromedriver74.exe");
 		// Open a new browser window
 		WebDriver driver = new ChromeDriver();
 		ArrayList<WebElement> languagesNamesList = new ArrayList<WebElement>();
